@@ -1,0 +1,18 @@
+{% include "app1/header.html" %}
+<body>
+  {% include "navigation.html" %}
+  <h1>CINS 465: Assignment 4 by Derek Bergman</h1>
+  <h2>Piece movement</h2>
+  <ul>
+    <li>Pawn (&#9817/&#9823) -- can move forward one space or optionally two spaces, if it has not yet moved from it's starting position. Pawns are the only piece that cannot attack with their normal movement, if the space in front of them is occupied they cannot move forward. Attacking with a pawn is done by moving diagnally forward one space. 
+    </li>
+    <li>Rook (&#9816/&#9822) -- can move on the x or y axis any number of spaces as long as the spaces are clear or unoccupied. 
+    </li>
+    <li>Knight (&#9814/&#9820) -- moves in an "L" shape, two spaces on the x or y axis and one space on the other axis. Knights are the only piece that can "jump" if another piece is blocking the "L" movement, the knight jumps over it. 
+    </li>
+    <li>Bishop (&#9815/&#9821) -- moves along the diagnals any number of unoccupied spaces.
+    </li>
+    <li>Queen (&#9813/&#9819) -- moves along either the diagnals or the x/y axis any number of unoccupied spaces.</li>
+    <li>King (&#9812/&#9818) -- moves one space in any direction. If both the king and rook have not moved from their starting spaces and there are no occupied spaces between the two, the king can make a special move: 2 spaces and the rook goes to the opposite space next to the king.</li>
+  </ul>
+</body>

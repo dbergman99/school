@@ -1,0 +1,70 @@
+body {
+  padding: 40px;
+}
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: auto;
+  border: 1px solid black;
+  background: tan;
+}
+
+table tr:nth-child(odd) td:nth-child(even){
+  background: chocolate;
+}
+
+table tr:nth-child(even) td:nth-child(odd){
+  background: chocolate;
+}
+
+td { 
+  font-family: monospace;
+  background: tan;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 50px;
+  text-align: center;
+}
+
+th {
+  background: tan;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+li {
+  font-size: 18px;
+  padding: 3px;
+  line-height: 1.5;
+}
+
+img { 
+  width: 20%;
+  height: auto; 
+  float: right;
+  margin: 5px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+input{
+  margin-top: 10px;
+}
+span {
+  margin-top: 10px;
+}
+
+.src {
+  font-color: black;
+}
+
+input:invalid:focus {
+  border: 2px dashed red;
+}
