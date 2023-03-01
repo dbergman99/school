@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chess Board -- CSS Styling</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>CINS 465: Assignment 1 by Derek Bergman</h1>
+  <table>
+    <th></th>
+    <th>a</th>
+    <th>b</th>
+    <th>c</th>
+    <th>d</th>
+    <th>e</th>
+    <th>f</th>
+    <th>g</th>
+    <th>h</th>
+    <tr>
+      <th>8</th>
+      <td>&#9820</td>
+      <td>&#9822</td>
+      <td>&#9821</td>
+      <td>&#9819</td>
+      <td>&#9818</td>
+      <td>&#9821</td>
+      <td>&#9822</td>
+      <td>&#9820</td>
+      <th>8</th>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <td>&#9823</td>
+      <th>7</th>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <th>6</th>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <th>5</th>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <th>4</th>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <td>&nbsp</td>
+      <th>3</th>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <td>&#9817</td>
+      <th>2</th>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>&#9814</td>
+      <td>&#9816</td>
+      <td>&#9815</td>
+      <td>&#9812</td>
+      <td>&#9813</td>
+      <td>&#9815</td>
+      <td>&#9816</td>
+      <td>&#9814</td>
+      <th>1</th>
+    </tr>
+    <th></th>
+    <th>a</th>
+    <th>b</th>
+    <th>c</th>
+    <th>d</th>
+    <th>e</th>
+    <th>f</th>
+    <th>g</th>
+    <th>h</th>
+  </table>
+  <hr></hr>
+
+  <h2>Hisotry</h2>
+  <p>&emsp;Chess has been around for hundreds of years and even longer when considering the other games it has been adapted from. Though the exact parent of chess is debated, most historians agree it was adapted in the late 15th century from an acient Indian game called chaturanga. Chess is a strategy game where two players play on a 64 square board with 16 pieces each having their own set of movement rules. The objective is to put the opponent's king in "checkmate". Check is when a piece is attacking the king and checkmate is when the opponents king can not make a legal move to protect itself.</p>
+  <hr></hr>
+  <h2>Movement</h2>
+  <ul>
+    <li>Pawn (&#9817/&#9823) -- can move forward one space or optionally two spaces, if it has not yet moved from it's starting position. Pawns are the only piece that cannot attack with their normal movement, if the space in front of them is occupied they cannot move forward. Attacking with a pawn is done by moving diagnally forward one space. 
+    </li>
+    <li>Rook (&#9816/&#9822) -- can move on the x or y axis any number of spaces as long as the spaces are clear or unoccupied. 
+    </li>
+    <li>Knight (&#9814/&#9820) -- moves in an "L" shape, two spaces on the x or y axis and one space on the other axis. Knights are the only piece that can "jump" if another piece is blocking the "L" movement, the knight jumps over it. 
+    </li>
+    <li>Bishop (&#9815/&#9821) -- moves along the diagnals any number of unoccupied spaces.
+    </li>
+    <li>Queen (&#9813/&#9819) -- moves along either the diagnals or the x/y axis any number of unoccupied spaces.</li>
+    <li>King (&#9812/&#9818) -- moves one space in any direction. If both the king and rook have not moved from their starting spaces and there are no occupied spaces between the two, the king can make a special move: 2 spaces and the rook goes to the opposite space next to the king.</li>
+  </ul>
+  <hr></hr>
+  <h2>About Me</h2>
+  <img src="me.jpg"/> 
+  <p>&emsp;Hi my name is Derek Bergman and I am a senior at CSU Chico. My dream programming job would be to help develope self driving cars or alternatively any machine learning or artificial intelegence position. In my free time I enjoy the hiking, camping, long boarding, and playing games, either board games or video games. </p>
+
+    <!-- JS files: jQuery first, then Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    -->
+</body>
+</html>
